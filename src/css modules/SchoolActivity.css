@@ -1,0 +1,130 @@
+/* SchoolActivity.css */
+
+/* Adjust the grid layout */
+/* .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    position: relative;
+} */
+
+/* Ensure grid items are properly aligned */
+.collage-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Vertical Line Divider */
+.line-divider-vertical {
+    position: absolute;
+    width: 2px;
+    height: 0;
+    /* background-color: #eee9e9; */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: height 2s ease-in-out;
+}
+
+/* Horizontal Line Divider */
+.line-divider-horizontal {
+    /* position: absolute; */
+    width: 0;
+    height: 3px;
+    /* background-color: #eee9e9; */
+    top: 50%;
+    /* Center horizontally between rows */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 2s ease-in-out;
+}
+
+/* Animation for drawing the line */
+.line-divider-vertical.drawing {
+    height: 100%;
+}
+
+.line-divider-horizontal.drawing {
+    width: 100%;
+    /* Expands to 100% */
+}
+
+/* Ensure grid items are properly aligned */
+/* .grid>div {
+    position: relative;
+} */
+
+
+/* Keyframe animations for images */
+@keyframes from-top-left {
+    from {
+        transform: translate(-1%, -1%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes from-top-right {
+    from {
+        transform: translate(1%, -1%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes from-bottom-left {
+    from {
+        transform: translate(-1%, 1%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes from-bottom-right {
+    from {
+        transform: translate(1%, 1%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+/* Adding animation to images */
+.collage-image-container img {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+.collage-image-1 {
+    animation: from-top-left 1.5s ease-out forwards;
+}
+
+.collage-image-2 {
+    animation: from-top-right 1.5s ease-out forwards;
+}
+
+.collage-image-3 {
+    animation: from-bottom-left 1.5s ease-out forwards;
+}
+
+.collage-image-4 {
+    animation: from-bottom-right 1.5s ease-out forwards;
+}
