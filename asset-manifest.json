@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.0df27e57.css",
-    "main.js": "/myportfolio/static/js/main.dc14389e.js",
-    "static/media/projectv1.mp4": "/myportfolio/static/media/projectv1.c4537f01c62e80e68c85.mp4",
-    "static/media/projectv2.mp4": "/myportfolio/static/media/projectv2.06a7ea6a189faf5209ab.mp4",
+    "main.js": "/myportfolio/static/js/main.a6e33dcc.js",
+    "static/media/projectvr.mp4": "/myportfolio/static/media/projectvr.c4537f01c62e80e68c85.mp4",
+    "static/media/projectvj.mp4": "/myportfolio/static/media/projectvj.06a7ea6a189faf5209ab.mp4",
     "static/media/t4.jpg": "/myportfolio/static/media/t4.9189709157052f54ada4.jpg",
     "static/media/t2.jpg": "/myportfolio/static/media/t2.9182777f844096f3bc1f.jpg",
     "static/media/t1.jpg": "/myportfolio/static/media/t1.fd84028d819d7257fdc3.jpg",
     "static/media/t3.jpg": "/myportfolio/static/media/t3.a32060821e97146be138.jpg",
-    "static/media/project1.png": "/myportfolio/static/media/project1.53fac318ea41894a4492.png",
+    "static/media/projectr.png": "/myportfolio/static/media/projectr.53fac318ea41894a4492.png",
     "static/media/r1.jpg": "/myportfolio/static/media/r1.6981aae714a9493b18c6.jpg",
     "static/media/r2.jpg": "/myportfolio/static/media/r2.4c7acef2cdedb73e2b36.jpg",
     "static/media/s4.jpg": "/myportfolio/static/media/s4.0a3bfba1ec320cbfc71c.jpg",
@@ -18,15 +18,15 @@
     "static/media/s3.jpg": "/myportfolio/static/media/s3.b67591b48cb78d7cf9b4.jpg",
     "static/media/s2.jpg": "/myportfolio/static/media/s2.acf5fc326abdc629f628.jpg",
     "static/media/Akhilesh_Shabadi_Photo.jpg": "/myportfolio/static/media/Akhilesh_Shabadi_Photo.63bccdba979e94a2cf63.jpg",
-    "static/media/project2.png": "/myportfolio/static/media/project2.a786b738db2971eb7c23.png",
+    "static/media/projectj.png": "/myportfolio/static/media/projectj.a786b738db2971eb7c23.png",
     "static/media/Akhilesh-Shabadi-E-Resume.pdf": "/myportfolio/static/media/Akhilesh-Shabadi-E-Resume.7012852507ed7b0ee6e5.pdf",
     "static/media/download.jpg": "/myportfolio/static/media/download.ab45a22d32ec7cefe2de.jpg",
     "index.html": "/myportfolio/index.html",
     "main.0df27e57.css.map": "/myportfolio/static/css/main.0df27e57.css.map",
-    "main.dc14389e.js.map": "/myportfolio/static/js/main.dc14389e.js.map"
+    "main.a6e33dcc.js.map": "/myportfolio/static/js/main.a6e33dcc.js.map"
   },
   "entrypoints": [
     "static/css/main.0df27e57.css",
-    "static/js/main.dc14389e.js"
+    "static/js/main.a6e33dcc.js"
   ]
 }
